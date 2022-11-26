@@ -6,6 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class FirstAutomatedTest  {
@@ -19,8 +20,8 @@ public class FirstAutomatedTest  {
     }
 
     @Test
-    public void myFirstTest()  {
-        driver.navigate().to ("https:/duckduckgo.com");
+    public void myFirstTest() {
+        driver.navigate().to("https:/duckduckgo.com");
 
         WebElement inputElem = driver.findElement(By.id("search_form_input_homepage"));
         inputElem.sendKeys("JavaStart");
@@ -31,6 +32,14 @@ public class FirstAutomatedTest  {
         String pageTitle = driver.getTitle();
 
         assertTrue(pageTitle.contains("JavaStart"));
+    }
+    @Test
+        public void mySecondTest()  {
+            driver.navigate().to ("https://selenium.dev/");
+
+            String pageTitle = driver.getTitle();
+
+        assertEquals(pageTitle, "Selenium");
     }
 
     @AfterMethod
