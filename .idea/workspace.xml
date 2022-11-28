@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4df6560-1317-4f1e-bc18-ddc0a5df5bf3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/javastart/courses/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FirstAutomatedTest.java" afterDir="false" />
+    <list default="true" id="a4df6560-1317-4f1e-bc18-ddc0a5df5bf3" name="Changes" comment="First automated test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/Locators XPath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +36,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Anna/JavaStart/Bank",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.46206897"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.FirstAutomatedTest.myFirstTest">
+  <component name="RunManager" selected="TestNG.FirstAutomatedTest">
     <configuration name="FirstAutomatedTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="MyFirstJavaProject" />
       <shortenClasspath name="NONE" />
@@ -99,8 +95,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FirstAutomatedTest.myFirstTest" />
         <item itemvalue="TestNG.FirstAutomatedTest" />
+        <item itemvalue="TestNG.FirstAutomatedTest.myFirstTest" />
         <item itemvalue="TestNG.FirstAutomationTest.myFirstTest" />
       </list>
     </recent_temporary>
@@ -114,6 +110,28 @@
       <option name="presentableId" value="Default" />
       <updated>1669457179827</updated>
     </task>
+    <task id="LOCAL-00001" summary="First automated test">
+      <created>1669470708168</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669470708168</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First automated test">
+      <created>1669474842870</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669474842870</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First automated test">
+      <created>1669476886036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669476886036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,5 +144,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First automated test" />
+    <option name="LAST_COMMIT_MESSAGE" value="First automated test" />
   </component>
 </project>

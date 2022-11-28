@@ -1,0 +1,57 @@
+Strona: http://przyklady.javastart.pl/jpetstore/actions/Catalog.action
+
+Logo w lewym górnym rogu strony głównej,
+div[@id="Logo"]//img
+
+ Przycisk koszyk,
+div[@name="img_cart"]
+
+ Link do strony logowania,
+div[@id="MenuContent"]/a[2]
+
+Link do strony pomocy,
+div[@id="MenuContent"]/a[3]
+
+Pole wyszukiwarki,
+div/[@name="keyword"]
+
+Przycisk Search,
+div/[@name="searchProducts"]
+
+Link Fish z górnego menu,
+//div[@id="QuickLinks"]/a[1]
+
+Link Dogs z górnego menu,
+//div[@id="QuickLinks"]/a[2]
+
+Link Reptiles z górnego menu,
+//div[@id="QuickLinks]/a[3]
+
+Link Cats z górnego menu,
+//*div@id="QuickLinks]/a[4]
+
+Link Birds z górnego menu,
+//div[@id="QuickLinks"]/a[5]
+
+Link Fish z bocznego menu,
+//*div[@id="SidebarContent"]/a[1]
+
+Link Dogs z bocznego menu,
+//div[@id="SidebarContent"]/a[2]
+
+Link Reptiles z bocznego menu,
+//div[@id="SidebarContent"]/a[4]
+
+Link Cats z bocznego menu,
+//div[@id="SidebarContent"]/a[3]
+
+Link Birds z bocznego menu,
+
+
+Główny obraz strony,
+
+
+Hiperłącze do strony www.mybaits.org
+
+
+
