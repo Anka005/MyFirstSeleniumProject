@@ -1,0 +1,28 @@
+Page: http://przyklady.javastart.pl/jpetstore/actions/Account.action?newAccountForm=
+
+Edytowalne pole User ID
+input[name='username']
+div/[@name="username"]
+
+Edytowalne pole New Password
+input[name='password']
+div/[@name="password"]
+
+Edytowalne pole Repeat Password
+input[name='repeatedPassword']
+div/[@name="repeatedPassword"]
+
+Lista wybieralna Language Preferences
+select[name='account.languagePreference']
+
+Lista wybieralna Favourite Category
+[name='account.favouriteCategoryId']
+
+Przycisk edytowalny typu checkbox Enable MyList
+input[name='account.listOption']
+
+Przycisk edytowalny typu checkbox Enable MyBanner
+input[name='account.bannerOption']
+
+Przycisk Save Account Information
+input[name='newAccount']
