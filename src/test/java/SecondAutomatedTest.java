@@ -18,9 +18,7 @@ public class SecondAutomatedTest {
     @Test
     public void mySecondTest() {
         driver.navigate().to("https://www.selenium.dev/");
-
         String pageTitle = driver.getTitle();
-
         assertEquals(pageTitle, "Selenium");
     }
 

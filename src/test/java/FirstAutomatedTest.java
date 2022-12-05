@@ -17,7 +17,6 @@ public class FirstAutomatedTest  {
         System.setProperty("webdriver.chrome.driver", "C:/drivers/chromedriver.exe");
         driver = new ChromeDriver();
     }
-
     @Test
     public void myFirstTest() {
         driver.navigate().to("https:/duckduckgo.com");
@@ -27,12 +26,10 @@ public class FirstAutomatedTest  {
         //driver.findElement(By.id("search_form_input_homepage")).submit();
         WebElement buttonSearchElem = driver.findElement(By.id("search_button_homepage"));
         buttonSearchElem.click();
-
         String pageTitle = driver.getTitle();
 
         assertTrue(pageTitle.contains("JavaStart"));
     }
-
     @AfterMethod
     public void afterTest() {
         driver.close();
