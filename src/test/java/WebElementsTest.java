@@ -40,6 +40,7 @@ public class WebElementsTest {
         sleep();
         WebElement uploadFilePicker = driver.findElement(By.id("upload_file"));
         uploadFilePicker.sendKeys("C:\\Users\\Anna\\Pictures\\koza.jfif");
+
         sleep();
     }
 
